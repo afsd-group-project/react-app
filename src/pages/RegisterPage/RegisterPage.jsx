@@ -7,7 +7,7 @@ import {
   Typography,
   Grid,
 } from "@mui/material";
-import "./Register.css";
+import "./RegisterPage.css";
 
 const RegisterPage = () => {
   const handleSubmit = () => {
@@ -97,7 +97,7 @@ const RegisterPage = () => {
                 />
               </Grid>
             </Grid>
-            <Button className="btn"
+            <Button className='btn'
               Widthsize="large"
               variant="contained"
               sx={{ mt: 3, mb: 2 }}

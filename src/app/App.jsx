@@ -1,4 +1,4 @@
-import Register from '../pages/RegisterPage/Register'
+import RegisterPage from '../pages/RegisterPage/RegisterPage'
 import './App.css'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Register/>
+    <RegisterPage/>
     </>
   )
 }
