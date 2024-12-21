@@ -29,11 +29,7 @@ const RegisterPage = () => {
   };
 
   return (
-
     <div className="box">
-        
-
-    
     <div className="card">
       <Container maxWidth="sm">
         <Box
