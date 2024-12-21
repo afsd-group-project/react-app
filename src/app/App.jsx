@@ -1,3 +1,4 @@
+import Register from '../pages/RegisterPage/Register'
 import './App.css'
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <>
-      
+      <Register/>
     </>
   )
 }
