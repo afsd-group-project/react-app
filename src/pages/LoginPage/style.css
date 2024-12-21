@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/abstract-watercolor-background_23-2149038179.jpg?semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.LoginPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    width: 320px;
+    height: 420px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.5);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.forgot{
+    margin-left: 170px;
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.signup{
+    color: #FA8072;
+    text-decoration: none;
+}
