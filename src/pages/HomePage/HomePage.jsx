@@ -18,7 +18,6 @@ const HomePage = () => (
           Group Project
         </Typography>
 
-        {/* Navigation links */}
         <ButtonGroup variant="text" color="inherit" sx={{ ml: 2 }}>
           <Button>About</Button>
           <Button>Profile</Button>
@@ -55,7 +54,6 @@ const HomePage = () => (
     </Box>
   </Box>
 );
-
 
 export default HomePage;
 
